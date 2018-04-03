@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import {ROOT_ROUTING} from './app-routing.module';
 import {NgZorroAntdModule} from 'ng-zorro-antd';
+import {FormsModule} from '@angular/forms';
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import {NgZorroAntdModule} from 'ng-zorro-antd';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     ROOT_ROUTING,
     NgZorroAntdModule.forRoot()
   ],
